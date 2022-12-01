@@ -1,0 +1,10 @@
+@import './../../styles.scss';
+
+.logo {
+    height: 50px;
+}
+
+.border-header {
+    border-bottom: 2px solid $base-blue;
+    background-color: $solid-white;
+}
