@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
+
+$base-blue: #227AB3;
+$base-dark-blue: #1d5691;
+$base-orange: #E75614;
+$info-blue: #d1ecfd;
+$body-bg-grey: #dddada;
+$solid-white: #fff;
+$black: #444444;
+
+*,
+html {
+    border-radius: 0 !important;
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background-color: $body-bg-grey !important;
+}
+
+.container {
+    max-width: 1340px !important;
+}
+
+.position-relative {
+    position: relative;
+}
+
+.btn-success,
+.btn-success:hover {
+    background-color: $base-orange;
+    border: none;
+}
