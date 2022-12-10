@@ -9,8 +9,8 @@ import { ProductDto } from '../models/master.model';
 export class ProductService {
 
   constructor(private http: HttpClient) {}
-  getAll(): Observable<ProductDto> {
-    return this.http.get(`http://localhost:8080/api/products/all`) as Observable<ProductDto>;
+  getAll(): Observable<ProductDto[]> {
+    return this.http.get(`http://localhost:8080/api/products/all`) as Observable<ProductDto[]>;
   }
 
 }

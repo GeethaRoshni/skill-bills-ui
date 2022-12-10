@@ -12,6 +12,7 @@ import { LoginComponent } from './common/login/login.component';
 import { LogoutComponent } from './common/logout/logout.component';
 import { MenuComponent } from './common/menu/menu.component';
 import { ProductComponent } from './product/product.component';
+import { ModelComponent } from './common/model/model.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ProductComponent } from './product/product.component';
     LogoutComponent,
     HomeComponent,
     FooterComponent,
-    ProductComponent
+    ProductComponent,
+    ModelComponent
   ],
   imports: [
     BrowserModule,

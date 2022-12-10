@@ -8,14 +8,10 @@ import { ProductService } from '../product/product.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor(private productService: ProductService) { }
+  constructor() { }
 
   ngOnInit() {
-    this.productService.getAll().subscribe(response => {
-      console.log(response);
-    }, error => {
-      console.log(error);
-    });
+    
   }
 
 

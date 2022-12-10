@@ -13,6 +13,7 @@ $black: #444444;
 html {
     border-radius: 0 !important;
     font-family: 'Raleway', sans-serif;
+    font-size: 14px;
 }
 
 body {
@@ -24,6 +25,11 @@ body {
     max-width: 1340px !important;
 }
 
+.page-container {
+    background-color: $solid-white;
+    padding: 15px 15px 1px 15px;
+}
+
 .position-relative {
     position: relative;
 }
@@ -32,4 +38,8 @@ body {
 .btn-success:hover {
     background-color: $base-orange;
     border: none;
+}
+
+.cursor {
+    cursor: pointer;
 }
