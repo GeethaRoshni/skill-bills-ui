@@ -29,7 +29,7 @@ export class AuthenticationService {
       },
       { headers: {  } }).pipe(map((response) => {
         sessionStorage.setItem(this.AUTHORIZATION, response.tokenType + ' ' + response.accessToken);
-        sessionStorage.setItem(this.USER_NAME_SESSION_ATTRIBUTE_NAME, response.userName);
+        sessionStorage.setItem(this.USER_NAME_SESSION_ATTRIBUTE_NAME, response.username);
         return response;
       }));
   }

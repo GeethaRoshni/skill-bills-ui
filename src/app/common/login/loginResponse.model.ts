@@ -4,5 +4,5 @@ export interface LoginResponse {
     id: number;
     roles: string[];
     tokenType: string;
-    userName: string;
+    username: string;
 }
