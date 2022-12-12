@@ -1,10 +1,11 @@
 @import './../../../styles.scss';
+@import './../../../assets/css/ready.css';
+@import './../../../assets/font-awesome-4.7.0/css/font-awesome.min.css';
 
 .logo {
     height: 50px;
 }
 
-.border-header {
-    border-bottom: 2px solid $base-blue;
-    background-color: $solid-white;
+.logo-img {
+    height: 80%;
 }

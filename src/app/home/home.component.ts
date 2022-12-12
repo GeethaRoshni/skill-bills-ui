@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { ProductService } from '../product/product.service';
+import '../../assets/js/demo.js';
+
+declare var start: any;
 
 @Component({
   selector: 'app-home',
@@ -8,12 +10,9 @@ import { ProductService } from '../product/product.service';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
-    
+    new start();
   }
-
-
-
 }

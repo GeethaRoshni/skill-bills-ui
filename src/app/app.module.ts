@@ -12,7 +12,8 @@ import { LoginComponent } from './common/login/login.component';
 import { LogoutComponent } from './common/logout/logout.component';
 import { MenuComponent } from './common/menu/menu.component';
 import { ProductComponent } from './product/product.component';
-import { ModelComponent } from './common/model/model.component';
+import { AddInvoiceComponent } from './invoice/add-invoice/add-invoice.component';
+import { ListInvoiceComponent } from './invoice/list-invoice/list-invoice.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { ModelComponent } from './common/model/model.component';
     HomeComponent,
     FooterComponent,
     ProductComponent,
-    ModelComponent
+    AddInvoiceComponent,
+    ListInvoiceComponent
   ],
   imports: [
     BrowserModule,

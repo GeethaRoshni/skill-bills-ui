@@ -1,6 +1,4 @@
-@import url(https://unpkg.com/bootstrap@4.1.0/dist/css/bootstrap.min.css);
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;600&display=swap');
-
 $base-blue: #227AB3;
 $base-dark-blue: #1d5691;
 $base-orange: #E75614;
@@ -34,12 +32,10 @@ body {
     position: relative;
 }
 
-.btn-success,
-.btn-success:hover {
-    background-color: $base-orange;
-    border: none;
-}
-
 .cursor {
     cursor: pointer;
+}
+
+.container-fluid {
+    background-color: $solid-white !important;
 }
